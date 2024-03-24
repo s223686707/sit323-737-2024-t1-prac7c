@@ -1,0 +1,14 @@
+{"level":"info","message":"Exponentiation: 2 ^ 3 = 8","service":"calculator-microservice"}
+{"level":"error","message":"Invalid Number Provided","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: √16 = 4","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 4 % 2 = 0","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 4 % 3 = 1","service":"calculator-microservice"}
+{"level":"error","message":"Invalid Numbers Provided","service":"calculator-microservice"}
+{"level":"info","message":"Addition: 4 + 2 = 6","service":"calculator-microservice"}
+{"level":"info","message":"Subtraction: 3 - 2 = 1","service":"calculator-microservice"}
+{"level":"info","message":"Multiplication: 5 * 3 = 15","service":"calculator-microservice"}
+{"level":"error","message":"Cannot divide by zero","service":"calculator-microservice"}
+{"level":"info","message":"Division: 5 / 5 = 1","service":"calculator-microservice"}
+{"level":"info","message":"Exponentiation: 2 ^ 3 = 8","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: √16 = 4","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 4 % 3 = 1","service":"calculator-microservice"}

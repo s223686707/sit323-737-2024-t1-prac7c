@@ -1,0 +1,3 @@
+{"level":"error","message":"Invalid Number Provided","service":"calculator-microservice"}
+{"level":"error","message":"Invalid Numbers Provided","service":"calculator-microservice"}
+{"level":"error","message":"Cannot divide by zero","service":"calculator-microservice"}
