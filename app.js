@@ -95,6 +95,12 @@ app.post('/mod', (req, res) => {
     res.json({result});
 });
 
+app.get('/health', (req, res) => {
+    console.log('Performing health check...');
+    res.status(200).send('OK');
+    console.log('Application is working properly.');
+  });
+
 // Starting the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
