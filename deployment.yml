@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: calculator-microservice-deployment
+  labels:
+    app: calculator-microservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: calculator-microservice
+  template:
+    metadata:
+      labels:
+        app: calculator-microservice
+    spec:
+      containers:
+        - name: nodeserver
+          image: subhash707/calculator-microservice-v3.0:latest
+          ports:
+            - containerPort: 3000
